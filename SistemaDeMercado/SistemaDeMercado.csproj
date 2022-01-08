@@ -44,7 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menus\Produto.cs" />
+    <Compile Include="Menus\MProduto.cs" />
     <Compile Include="Menus\Principal.cs" />
     <Compile Include="Funcoes\Produto.cs" />
     <Compile Include="Program.cs" />

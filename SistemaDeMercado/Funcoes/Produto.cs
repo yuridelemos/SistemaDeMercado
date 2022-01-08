@@ -8,13 +8,20 @@ using System.Threading.Tasks;
 
 namespace Funcoes
 {
-    class Produto
+    public class Produto
     {
         public string Nome;
         public string Setor;
         public double EAN;
         public double Preco;
 
+        /// <summary>
+        /// Constutor de classe
+        /// </summary>
+        /// <param name="nome">Para preencher o nome do produto</param>
+        /// <param name="setor">Para preencher o setor do produto</param>
+        /// <param name="ean">Para preencher o código de barras do produto</param>
+        /// <param name="preco">Para preencher o preço de venda do produto</param>
         public Produto(string nome, string setor, double ean, double preco)
         {
             this.Nome = nome;

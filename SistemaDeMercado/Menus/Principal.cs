@@ -30,7 +30,7 @@ namespace Menus
                 switch (OpcaoMenu)
                 {
                     case MENU_PRODUTO:
-                        Produto.Menu();
+                        MProduto.Menu();
                         break;
                     case MENU_CLIENTE:
                         break;
